@@ -1,0 +1,23 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.3",
+  "Category": "",
+  "Description": "Sample project showing EOS login and lobby management from a widget.",
+  "Modules": [
+    {
+      "Name": "EOSLoginSample",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    { "Name": "OnlineSubsystem", "Enabled": true },
+    { "Name": "OnlineSubsystemEOS", "Enabled": true },
+    { "Name": "OnlineSubsystemUtils", "Enabled": true }
+  ],
+  "TargetPlatforms": [
+    "Windows",
+    "Linux",
+    "Mac"
+  ]
+}
